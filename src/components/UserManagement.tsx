@@ -377,7 +377,7 @@ export function UserManagement({ currentUserRole }: UserManagementProps) {
               <Label className="label-field">Email Address *</Label>
               <Input
                 type="email"
-                placeholder="user@walgreens.com"
+                placeholder="user@acme.com"
                 value={newInvite.email}
                 onChange={(e) => setNewInvite({ ...newInvite, email: e.target.value })}
               />

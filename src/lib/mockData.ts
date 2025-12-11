@@ -900,7 +900,7 @@ export interface UserInvitation {
 export const mockUserInvitations: UserInvitation[] = [
   {
     id: 'invite-1',
-    email: 'sarah.jones@walgreens.com',
+    email: 'sarah.jones@acme.com',
     role: 'site-manager',
     siteId: 'DC-002',
     siteName: 'Boston DC',

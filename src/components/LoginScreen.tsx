@@ -2,8 +2,6 @@ import { Card, CardDescription, CardTitle } from './design-system/Card';
 import { Button } from './design-system/Button';
 import { Building2, User, LogIn } from 'lucide-react';
 import { UserRole } from '../App';
-import { ImageWithFallback } from './figma/ImageWithFallback';
-import walgreensLogo from 'figma:asset/76ded5e70c68c52eb736e5189a8ab73a58ac7577.png';
 
 interface LoginScreenProps {
   onLogin: (role: UserRole, name: string, siteId?: string, jobFunctionId?: string) => void;
@@ -20,18 +18,14 @@ export function LoginScreen({ onLogin }: LoginScreenProps) {
     }}>
       <div style={{ width: '100%', maxWidth: '448px' }}>
         <div style={{ textAlign: 'center' }}>
-          <ImageWithFallback 
-            src={walgreensLogo}
-            alt="Walgreens Logo"
-            style={{ width: '480px', height: 'auto', margin: '0 auto', marginBottom: 'var(--spacing-4)' }}
-          />
+          <h1 style={{ fontSize: '48px', marginBottom: 'var(--spacing-4)', color: 'var(--foreground)' }}>Acme Inc.</h1>
         </div>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--spacing-4)' }}>
           {/* SSO Login */}
           <Button
             style={{ width: '100%', justifyContent: 'center' }}
             size="lg"
-            onClick={() => onLogin('executive', 'John Sugden')}
+            onClick={() => onLogin('executive', 'Alex Johnson')}
           >
             <LogIn style={{ marginRight: 'var(--spacing-2)', height: '20px', width: '20px' }} />
             Sign in with SSO
@@ -64,7 +58,7 @@ export function LoginScreen({ onLogin }: LoginScreenProps) {
               style={{ width: '100%', justifyContent: 'flex-start' }}
               variant="outline"
               size="lg"
-              onClick={() => onLogin('executive', 'John Sugden')}
+              onClick={() => onLogin('executive', 'Alex Johnson')}
             >
               <User style={{ marginRight: 'var(--spacing-2)', height: '20px', width: '20px' }} />
               Sign in as Executive (DVP)

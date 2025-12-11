@@ -27,10 +27,10 @@ All 7 System Settings tabs have been enhanced with consistent design system impl
   - Light Blue, Pink, Green, Yellow gradients
   - Pure White, Light Gray solids
   - Purple, Slate gradients
-  - Walgreens Red (default)
+  - Brand Red (default)
 
 - ✅ **Color Themes** - 8 one-click color schemes
-  - Walgreens Red, Blue, Green, Purple
+  - Brand Red, Blue, Green, Purple
   - Orange, Teal, Pink, Indigo
   - Sets both primary & accent colors
 

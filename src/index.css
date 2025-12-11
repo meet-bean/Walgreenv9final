@@ -70,7 +70,6 @@
     --color-blue-200: oklch(.882 .059 254.128);
     --color-blue-600: oklch(.546 .245 262.881);
     --color-blue-800: oklch(.424 .199 265.638);
-    --color-gray-100: oklch(.967 .003 264.542);
     --color-gray-300: oklch(.872 .01 258.338);
     --color-gray-500: oklch(.551 .027 264.364);
     --color-gray-600: oklch(.446 .03 256.802);
@@ -1017,10 +1016,6 @@
     background-color: oklch(1 0 0);
   }
 
-  .bg-gray-100 {
-    background-color: var(--color-gray-100);
-  }
-
   .bg-green-50 {
     background-color: var(--color-green-50);
   }
@@ -1119,10 +1114,6 @@
 
   .text-right {
     text-align: right;
-  }
-
-  .align-middle {
-    vertical-align: middle;
   }
 
   .font-\[family-name\:var\(--font-family-inter\)\] {

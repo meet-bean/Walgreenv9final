@@ -1,6 +1,6 @@
-# Walgreens Supply Chain Performance Management Platform
+# Acme Inc. Supply Chain Performance Management Platform
 
-A comprehensive web application that replaces Walgreens' manual spreadsheet system for managing supply chain performance across multiple distribution centers. Built with React, TypeScript, and Tailwind CSS.
+A comprehensive web application that replaces manual spreadsheet systems for managing supply chain performance across multiple distribution centers. Built with React, TypeScript, and Tailwind CSS.
 
 ---
 
@@ -634,6 +634,6 @@ For questions about the platform architecture or rebuilding on another platform:
 
 ---
 
-**Built for Walgreens Supply Chain Operations**  
+**Built for Acme Inc. Supply Chain Operations**  
 **Last Updated:** November 5, 2025  
 **Version:** 1.0.0

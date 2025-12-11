@@ -224,7 +224,7 @@ The app now launches directly into the **KPI Options Demo** by default.
 - All demos are fully functional
 - Click counters track efficiency
 - Each option has comparison to current system
-- Design adheres to Walgreens design system
+- Design adheres to brand design system
 - Can be easily adapted to production code
 
 **Current Status:** ✅ All demos complete and interactive

@@ -1,5 +1,5 @@
 /**
- * WALGREENS SUPPLY CHAIN PERFORMANCE MANAGEMENT SYSTEM
+ * ACME INC. SUPPLY CHAIN PERFORMANCE MANAGEMENT SYSTEM
  * COMPREHENSIVE SYSTEM CONFIGURATION
  * 
  * This file contains all system-wide configuration settings based on
@@ -13,7 +13,7 @@ import { UserRole, AlertSeverity, NotificationMethod, NotificationFrequency } fr
 // ============================================================================
 
 export const SYSTEM_CONFIG = {
-  name: 'Walgreens Supply Chain Performance Management',
+  name: 'Acme Inc. Supply Chain Performance Management',
   version: '1.0.0',
   environment: 'production', // 'development' | 'staging' | 'production'
   timezone: 'America/New_York', // Eastern Time (Philadelphia HQ)
@@ -581,8 +581,8 @@ export const THEME_CONFIG = {
       excellent: '#059669', // Dark Green (105%+)
     },
     brand: {
-      primary: '#0052CC', // Walgreens Blue
-      secondary: '#E31837', // Walgreens Red
+      primary: '#0052CC', // Brand Blue
+      secondary: '#E31837', // Brand Red
       accent: '#F59E0B', // Alert Amber
     },
   },
